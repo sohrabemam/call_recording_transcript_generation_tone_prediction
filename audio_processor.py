@@ -23,7 +23,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 if not api_key:
     raise ValueError("OPENAI_API_KEY environment variable is not set. Please set it to your OpenAI API key.")
 # Initialize OpenAI client
-client = OpenAI(api_key)
+client = OpenAI(api_key=api_key)
 
 # Initialize keyword extractor
 kw_extractor = yake.KeywordExtractor(lan="en", n=1, dedupLim=0.9, top=1)

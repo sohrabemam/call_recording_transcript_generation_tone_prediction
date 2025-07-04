@@ -6,7 +6,7 @@ import tempfile
 import os
 import logging
 from audio_processor import process_audio_file, aggregate_results, generate_conclusion
-import load_dotenv
+from dotenv import load_dotenv
 load_dotenv()
 # Configure page
 st.set_page_config(

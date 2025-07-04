@@ -26,3 +26,5 @@ praat-parselmouth>=0.4.3 # Required for jitter, shimmer, pitch, HNR extraction
 
 # Optional: dimensionality reduction
 umap-learn>=0.5.5   # UMAP for clustering visualization
+
+dotenv>=1.0.0      # Environment variable management
