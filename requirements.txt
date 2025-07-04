@@ -1,0 +1,28 @@
+# Core audio processing
+librosa>=0.10.0     # Audio analysis
+numpy>=1.24         # Required by librosa and others
+scipy>=1.10         # Signal processing
+soundfile>=0.12     # WAV/FLAC I/O
+pydub>=0.25         # Audio segment manipulation (optional if not used)
+
+# Data processing
+pandas>=2.0         # Tabular data
+langdetect>=1.0.9   # Language detection
+yake>=0.4.8         # Keyword extraction
+
+# Machine learning / visualization
+plotly>=5.16.1      # Interactive plots
+streamlit>=1.28.0   # Web interface
+
+# LLM/AI
+openai>=1.10.0      # ChatGPT API access
+
+# Backend (optional if using FastAPI)
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+
+# Optional: for audio feature extraction with Praat
+praat-parselmouth>=0.4.3 # Required for jitter, shimmer, pitch, HNR extraction
+
+# Optional: dimensionality reduction
+umap-learn>=0.5.5   # UMAP for clustering visualization
